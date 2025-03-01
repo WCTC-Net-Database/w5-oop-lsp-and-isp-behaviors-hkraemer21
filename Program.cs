@@ -12,8 +12,9 @@ namespace W5_assignment_template
             var character = new Character();
             var goblin = new Goblin();
             var ghost = new Ghost();
+            var mimic = new Mimic();
 
-            var gameEngine = new GameEngine(character, goblin, ghost);
+            var gameEngine = new GameEngine(character, goblin, ghost, mimic);
             gameEngine?.Run();
         }
 
